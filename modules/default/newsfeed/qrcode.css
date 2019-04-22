@@ -1,0 +1,13 @@
+.qrcode {
+    float: right;
+    margin-left: 25px;
+}
+
+.newscontent {
+    float: left;
+}
+
+.newsfeedcontainer {
+    display: flex;
+    justify-content: center;
+}

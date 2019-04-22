@@ -8,6 +8,10 @@ This module displays news headlines based on an RSS feed. Scrolling through news
 
 ## Using the module
 
+### Dependencies
+
+Uses [QRCode.js](https://github.com/davidshimjs/qrcodejs)
+
 ### Configuration
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
@@ -69,6 +73,7 @@ The following properties can be configured:
 | `showSourceTitle`  | Display the title of the source. <br><br> **Possible values:** `true` or `false` <br> **Default value:** `true`
 | `showPublishDate`  | Display the publish date of an headline. <br><br> **Possible values:** `true` or `false` <br> **Default value:** `true`
 | `showDescription`  | Display the description of an item. <br><br> **Possible values:** `true` or `false` <br> **Default value:** `false`
+| `showQRCode`       | Display a QRCode that links to the current newsitem. <br><br> **Possible values:** `true` or `false` <br> **Default value:** `true`
 | `wrapTitle`        | Wrap the title of the item to multiple lines. <br><br> **Possible values:** `true` or `false` <br> **Default value:** `true`
 | `wrapDescription`  | Wrap the description of the item to multiple lines. <br><br> **Possible values:** `true` or `false` <br> **Default value:** `true`
 | `truncDescription` | Truncate description? <br><br> **Possible values:** `true` or `false` <br> **Default value:** `true`
